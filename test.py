@@ -1,0 +1,7 @@
+x = open(r"Python\project\daydayword\flag","r")
+b = int(x.read())
+x.close()
+print(b)
+y = open(r"Python\project\daydayword\flag","w")
+y.write(str(b+1))
+y.close()
