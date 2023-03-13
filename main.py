@@ -31,16 +31,16 @@ for i in range(10):
                           + "<p>" + meaning[10*day + i] + "</p>\n"
 
 
-host_server = 'smtp.163.com'
+host_server = ''
 
-sender_qq = 'wpw12138@163.com'
+sender_qq = ''
 
-pwd = 'ARLYBVGDHDJELLSC'
+pwd = ''
 
-sender_qq_mail = 'wpw12138@163.com'
+sender_qq_mail = ''
 
-receiver = 'ssnape@qq.com'
-# receiver1 = '2926083239@qq.com'
+receiver = ''
+# receiver1 = ''
         
 mail_content = send_data
 
